@@ -1,0 +1,53 @@
+Lorenz attractor explorer and animator.
+BY JAY LECAVALIER
+HOURS SPENT: Approximately 6 hours
+
+Table of contents:
+1. Program description
+2. Description of explorer mode
+3. Description of animation mode
+4. How to compile and run
+5. Key Bindings
+
+1. Program description:
+Explore the Lorenz attractor by changing
+its parameters and viewing it from various
+angles. In addition, watch the 3d path taken
+by the lorenz attractor in animation mode.
+
+2. Explorer Mode:
+In explorer mode, view the lorenz attractor from
+various angles. You can change all three 
+parameters (s, b, and r) and also change how
+frequently the colors cycle through the rainbow.
+
+3. Animation Mode:
+When you switch to animation mode, you can watch
+the path of the lorenz attractor as it is traced
+before your eyes. During the animation, you can
+still change the viewing angle, the attractor
+parameters, and the frequency of the color cycle.
+When the animation finishes, this mode is equivalent
+to explorer mode. Whenever you switch to animation
+mode, the animation will start over from the
+beginning.  
+
+4. How to compile and run:
+To compile the program, navigate to the directory
+containing this README file using your terminal, then
+type 'make'. This will compile the program. Then, type
+'./hw1' to execute the program. To clean up and remove
+all the program files, type 'make clean' in your terminal.
+
+5. Key bindings:
+1 	 Explorer Mode
+2      Animation Mode
+q/a    Increase/decrease 's' parameter
+w/s    Increase/decrease 'b' parameter
+e/d    Increase/decrease 'r' parameter
+z/x    Increase/decrease color cycle frequency
+arrows Change viewing angle
+0      Reset viewing angle
+9      Reset attractor parameters
+8      Reset colors
+ESC    Exit program
